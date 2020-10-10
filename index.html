@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery Food - доставка еды на дом!</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css\normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Шапка сайта -->
+      <header class="header">
+        <!-- Логотип -->
+        <a href="/index.html" class="logo animate__animated animate__bounce">
+          <img src="img\logo.svg" alt="Logo" />
+        </a>
+        <!-- Поле поиска -->
+        <input
+          type="text"
+          class="input input-adress"
+          placeholder="Адрес доставки"
+        />
+        <div class="buttons">
+          <button class="button button-primary">
+            <img src="img\user.svg" alt="user" class="button-icon" /><span
+              class="button-text"
+              >Войти</span
+            >
+          </button>
+          <button class="button">
+            <img
+              src="img\shopping-cart.svg"
+              alt="shopping cart"
+              class="button-icon"
+            /><span class="button-text">Корзина</span>
+          </button>
+        </div>
+      </header>
+    </div>
+    <!-- Элемент <main> (от англ. main — основной, главный) 
+      предназначен для основного содержимого документа. На странице может быть только один <main> и он не должен располагаться внутри элементов <article>, <aside>, <footer>, <header>, <nav> или <section>. Элемент <main> включает в себя содержимое, которое является уникальным для данного документа, и не должен включать повторяющиеся разделы сайта, такие как навигация, название сайта, логотип, поисковая форма, баннеры и др. 
+    Закрывающий тег - Обязателен. -->
+    <main class="main">
+      <div class="container">
+        <!-- Секция «Промо» -->
+        <section class="promo">
+          <h1 class="promo-title">Онлайн-сервис <br />доставки еды на дом</h1>
+          <p class="promo-text">
+            Блюда из любимого ресторана привезет курьер в&nbsp;перчатках, маске
+            и&nbsp;с&nbsp;антисептиком
+          </p>
+        </section>
+        <!-- Секция «Рестораны» -->
+        <section class="restaurants">
+          <div class="section-heading">
+            <h2 class="section-title">Рестораны</h2>
+            <input
+              type="text"
+              class="input input-search"
+              placeholder="Поиск блюд и ресторанов"
+            />
+          </div>
+          <div class="cards">
+            <a href="restourant.html" class="card">
+              <img src="img\image.jpg" alt="image" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Пицца плюс</h3>
+                  <span class="card-teg tag">50 мин</span>
+                </div>
+                <!-- card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img src="img\rating.svg" alt="star" class="rating-star" />
+                    4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <!-- /.card -->
+            <a href="restourant.html" class="card">
+              <img src="img\tanuki.jpg" alt="image" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Тануки</h3>
+                  <span class="card-teg tag">50 мин</span>
+                </div>
+                <!-- card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img src="img\rating.svg" alt="star" class="rating-star" />
+                    4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <!-- /.card -->
+            <a href="restourant.html" class="card">
+              <img src="img\FoodBand.jpg" alt="image" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">FoodBand</h3>
+                  <span class="card-teg tag">50 мин</span>
+                </div>
+                <!-- card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img src="img\rating.svg" alt="star" class="rating-star" />
+                    4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <!-- /.card -->
+            <a href="restourant.html" class="card">
+              <img src="img\pizza.jpg" alt="image" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Жадина-пицца</h3>
+                  <span class="card-teg tag">50 мин</span>
+                </div>
+                <!-- card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img src="img\rating.svg" alt="star" class="rating-star" />
+                    4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <!-- /.card -->
+            <a href="restourant.html" class="card">
+              <img src="img\tochka.jpg" alt="image" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">Точка еды</h3>
+                  <span class="card-teg tag">50 мин</span>
+                </div>
+                <!-- card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img src="img\rating.svg" alt="star" class="rating-star" />
+                    4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <!-- /.card -->
+            <a href="restourant.html" class="card">
+              <img src="img\PizzaBurger.jpg" alt="image" class="card-image" />
+              <div class="card-text">
+                <div class="card-heading">
+                  <h3 class="card-title">PizzaBurger</h3>
+                  <span class="card-teg tag">50 мин</span>
+                </div>
+                <!-- card-heading -->
+                <div class="card-info">
+                  <div class="rating">
+                    <img src="img\rating.svg" alt="star" class="rating-star" />
+                    4.5
+                  </div>
+                  <div class="price">От 900 ₽</div>
+                  <div class="category">Пицца</div>
+                </div>
+              </div>
+            </a>
+            <!-- /.card -->
+          </div>
+          <!-- /.cards -->
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <a href="/index.html" class="logo animate__animated animate__bounce">
+            <img src="img\logo.svg" alt="Logo" />
+          </a>
+          <nav class="footer-nav">
+            <a href="#" class="footer-link">Ресторанам</a>
+            <a href="#" class="footer-link">Курьерам</a>
+            <a href="#" class="footer-link">Пресс-центр</a>
+            <a href="#" class="footer-link">Контакты</a>
+          </nav>
+          <div class="social-links">
+            <a href="#" class="social-link"
+              ><img src="img/in.svg" alt="instagram"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img/fb.svg" alt="facebook"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img/vk.svg" alt="vk"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
